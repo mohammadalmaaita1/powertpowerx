@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40d38a3cad083fbfeac6db5c11b5ac92717f7e3f03": {
+      "workers": {
+        "app/dashboard/towers/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/towers/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/tower-advisor-flow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/towers/[id]/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
