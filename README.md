@@ -46,11 +46,30 @@ Here is a high-level overview of the key directories in this project:
 │   └── hooks/              # Custom React hooks (e.g., use-toast).
 ├── public/                 # Static assets like images and fonts.
 └── tailwind.config.ts      # Tailwind CSS configuration.
+
+
 ```
+
+## 📷 Screenshots
+
+### Dashboard
+![Dashboard](https://j.top4top.io/p_3562iw2if1.png)
+
+### MAP VIEWS
+![MAP VIEWS](https://k.top4top.io/p_3562bp1kg2.png)
+
+### REPORTS
+![REPORTS](https://l.top4top.io/p_35621og2c3.png)
+
+### BATTERY
+![BATTERY](https://a.top4top.io/p_3562kq4u94.png)
+
+### ALERTS
+![ALERTS](https://b.top4top.io/p_3562t6yq25.png)
 
 ## ⚙️ Getting Started
 
-Follow these steps to get the development environment running.
+Follow these steps to set up the development environment.
 
 ### Prerequisites
 
@@ -130,7 +149,7 @@ The application uses local API routes to simulate a backend. These can be found 
 
 ## 🤖 AI Integration with Genkit
 
-The AI-powered analysis is handled by Genkit. The core logic is defined in:
+Genkit handles the AI-powered analysis. The core logic is defined in:
 
 -   **`src/ai/flows/tower-advisor-flow.ts`**: This file defines a Genkit "flow" that takes tower metrics as input, sends them to the Gemini model with a specific prompt, and receives structured analysis and recommendations as output.
 -   **`src/app/dashboard/towers/[id]/page.tsx`**: The `AiAdvice` component in this file calls the Genkit flow to display the recommendations on the tower detail page.
